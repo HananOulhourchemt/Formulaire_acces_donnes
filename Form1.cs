@@ -16,7 +16,7 @@ namespace Formulaire_acces_donnes
             string Nom;
             string Prenom;
 
-            static string chaine = @"Data Source=DESKTOP-IOMF4D2\MSSQLSERVER02 ;Initial Catalog=etudiant;Integrated Security=True";
+            static string chaine = @"Data Source=DESKTOP-3HD4DNA\MSSQLSERVER02 ;Initial Catalog=etudiant;Integrated Security=True";
             static SqlConnection cnx = new SqlConnection(chaine);
             static SqlCommand cmd = new SqlCommand();
             static SqlDataAdapter adapter = new SqlDataAdapter(cmd);
